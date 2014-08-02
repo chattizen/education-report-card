@@ -1,8 +1,18 @@
 # Education Report Card
 
-Education data, and lots of it.
+The Chattizen Report Card provides a summary of area school performance. The app is based on [2014 achievement data](http://tn.gov/education/data/tcap_2014_districts.shtml) recently released by the state of Tennessee.
 
-## School Info
+## Navigation
+
+There are at least two ways to locate a particular school:
+
++ Form that requests user's address to display "Schools near me"
++ Dropdown menu with school names organized by grade level (K-5, middle, high)
+
+
+## Basic School Info
+
+Each profile should include basic information about the school.
 
 + Name
 + Grades
@@ -13,22 +23,20 @@ Education data, and lots of it.
 + Principal
 + School board district
 
-## Background
+Some demographic information is also included.
 
 + Number of students
 + Number of teachers
 + Teacher-student ratio
 + Demographics
 + % of students on free or reduced lunch
-+ Graduation rate (High school)
++ Graduation rate (High schools)
 
 ## School Achievement
 
-School averages on TCAP and ACT. 
+School achievement scores are based on TCAP and ACT results. The data displayed for each school will depend on the grade levels at that school
 
-Data source: School-level achievement, 2010-2012 [Tennessee Department of Education](http://www.tn.gov/education/research/dataavailablefordownload_000.shtml)
-
-### Elementary School
+### Elementary Schools
 
 TCAP subjects include a letter grade and trend (+,-,NC).
 
@@ -37,7 +45,7 @@ TCAP subjects include a letter grade and trend (+,-,NC).
 + Social Studies
 + Science
 
-### Middle School
+### Middle Schools
 
 TCAP subjects include a letter grade and trend (+,-,NC)
 
@@ -47,7 +55,7 @@ TCAP subjects include a letter grade and trend (+,-,NC)
 + Social Studies
 + Science
 
-### High School
+### High Schools
 
 ACT scores (1-year):
 
@@ -57,43 +65,10 @@ ACT scores (1-year):
 + Reading
 + Science
 
-## School Proficiency
+## Comparison
 
-Percentage of students below basic, basic, proficient and advanced.
+There are several possibilities to compare school performance.
 
-> Results are suppressed where the number of valid test scores is less than ten (*). In the 2013 files, suppression occurs when the combined basic and below basic proficiency levels are greater than 95% (***) or the combined advanced and proficient proficiency levels are greater than 95% (**). 
-
-### Elementary and Middle School
-
-+ Math
-+ Reading and Language Arts (RLA)
-+ Science
-+ Social Studies
-
-### High School
-
-+ Algebra I
-+ Algebra II
-+ Biology
-+ English I
-+ English II
-+ English III
-+ US History
-
-Data source: School-level accountability, 2010-2013 [Tennessee Department of Education](http://www.tn.gov/education/research/dataavailablefordownload_000.shtml)
-
-## Comparisons
-
-Ideas for comparing different schools and gauging performance:
-
-+ By ZIP code
-+ By school board district
-+ State average
-+ District average
-
-## Examples of other report cards
-
-+ [State of Tennessee](https://www.tn.gov/education/reportcard/2013.shtml)
-+ [ProPublica](http://projects.propublica.org/schools/search?lat=35.1503998&lng=-85.41692109999997)
-+ [Great Schools](http://www.greatschools.org/tennessee/signal-mountain/2084-Nolan-Elementary-School/)
-
++ Side by side between schools with same grade levels
++ State averages
++ School board district averages
